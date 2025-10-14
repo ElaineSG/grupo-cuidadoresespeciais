@@ -1,55 +1,43 @@
-<!DOCTYPE html><!--Declaração do tipo de documento-->
-<html lang="pt-br"><!--Define o idioma como português do Brasil-->
-<head><!--Início do cabeçalho-->
-    <meta charset="UTF-8"><!--Define a codificação de caracteres como UTF-8-->
-    <meta name="viewport" content="width=device-width, 
-initial-scale=1.0"><!--Configura a viewport para responsividade-->
-    <title>PetShop Amigo Fiel</title><!--Título da página no navegador-->
-    <link rel="stylesheet" href="style.css"><!--Link para o arquivo CSS externo-->
-</head><!--Fim do cabeçalho-->
-<body><!--Início do corpo do documento-->
-    <div class="container"><!--Div principal com a classe "container"-->
-        <header><!--Início do cabeçalho da página-->
-            <h1><!--Título principal com um emoji-->
- 🐾
- PetShop Amigo Fiel</h1><!--fechamento do título principal-->
-            <p class="subtitle"><!-- inclusão de parágrafo na página com a classe "subtitle"-->Sistema desenvolvido pelo Grupo Cuidadores Especiais</p><!--fechamento da tag parágrafo--> 
-            <p><strong>Endereço:</strong> R. da Guia, 142 - Recife, PE, 50030-210</p>
-	        <p><strong>Telefone:</strong> (81) 99999-8888</p>
-	        <p><strong>Horário de Funcionamento:</strong> Seg a Sáb, 8h às 18h</p>
-	        <p><strong>Serviços:</strong> Banho, Tosa, Consulta Veterinária, Vacinação, Hotelzinho</p>
-        </header><!--Fim do cabeçalho da página-->
-       <div class="cards-info"><!--Div para cartões de informação com a classe "cards-info"--> 
-            <div class="card"><!--Div para um cartão com a classe "card"--> 
- 
-                <h3>Animais Cadastrados</h3><!--subtítulo 3--> 
-              <span class="numero" id="total-animais"><!--contêiner com a classe "numero e a id "total-animais-->0</span><!--fechamento da tag do contêiner-->   
-            </div><!--fechamento da div--> 
-            <div class="card"><!--Div para um cartão com a classe "card"--> 
-                <h3><!--subtítulo tamnho 3-->Serviços Agendados</h3><!--fechamento do subtítulo--> 
-              <span class="numero" id="total-servicos"><!--cointêiner com a classe "numero" e a id "total-servicos"-->0</span><!--fechamento da tag do contêiner--> 
-            </div><!--fechamento da div--> 
-        </div><!--fechamento da div--> 
- 
-        <div class="area-resultados" id="resultado"><!--Div para área de resultados com a classe "area-resultados" e a id "resultado"--> 
-            
-😊
- Bem-vindo ao sistema! Clique nos botões abaixo. 
-        </div><!--fechamento da div--> 
-        <div class="botoes"><!--Div para área de botões com a classe "botoes"-->
-            <button onclick="mostrarTipos()"><!--criação do botão Tipos Básicos-->1. Tipos 
-Básicos</button><!--fechamento do botão--> 
-            <button onclick="mostrarAnimais()"><!--criação do botão Exemplo Animais-->2. Exemplo 
-Animais</button><!--fechamento do botão--> 
-            <button onclick="testarFuncoes()"><!--criação do botão Testar Funções-->3. Testar 
-Funções</button><!--fechamento do botão--> 
-            <button onclick="mostrarErros()"><!--criação do botão Ver Erros-->4. Ver Erros</button><!--fechamento do botão-->
-            <button onclick="cadastrarAnimal()"><!--criação do botão Cadastrar Animal-->5. Cadastrar 
-Animal</button><!--fechamento do botão--> 
-            <button onclick="agendarServico()"><!--criação do botão Agendar Serviço-->6. Agendar
-        </div><!--fechamento da div--> 
-    </div><!--fechamento da div principal--> 
-<script src="script.ts"><!--Link para o arquivo TypeScript externo</script><!--Link para o arquivo JavaScript externo-->
-</body><!--fechamento da tag body, referente ao corpo do documento-->
-</html><!--fechamento da tag HTML-->
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>🐴Petshop Amigo Fiel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>🐴Petshop Amigo Fiel</h1>
+<p class="subtitle">Sistema desenvolvido pelo Grupo Cuidadores Especiais</p>
+</header>
+<div class="cards-info">
+<div class="card">
+<h3>Animais Cadastrados</h3>
+<span class="numero" id="total-animais">0</span>
+</div>
+<div class="card">
+<h3>Serviços Agendados</h3>
+<span class="numero" id="total-servicos">0</span>
+</div>
+</div>
+<div class="area-resultados" id="resultado">
+🐾 Bem-vindo ao sistema! Clique nos botões abaixo.
+</div>
+<div class="botoes">
+<button onclick="mostrarTipos()">1. Tipos
+Básicos</button>
+<button onclick="mostrarAnimais()">2. Exemplo
+Animais</button>
+<button onclick="testarFuncoes()">3. Testar
+Funções</button>
+<button onclick="mostrarErros()">4. Ver Erros</button>
+<button onclick="cadastrarAnimal()">5. Cadastrar
+Animal</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

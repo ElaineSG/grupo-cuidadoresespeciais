@@ -6,27 +6,27 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #d3d3d3;
-    padding: 200px;
+    padding: 50px;
     min-height: 100vh;
 }
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: rgb(34, 167, 223);
+    background: #06aca4;
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 header {
-text-align: center;
-margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 h1 {
-color: #ff8000;
+color: #ffffff;
 margin-bottom: 5px;
 }
 .subtitle {
-color: #666;
+color: #000000;
 font-size: 14px;
 }
 .cards-info {
@@ -66,7 +66,7 @@ gap: 10px;
 }
 button {
 padding: 12px;
-background: #1565c0;
+background: #3f8ce3;
 color: white;
 border: none;
 border-radius: 6px;
